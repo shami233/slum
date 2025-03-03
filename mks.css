@@ -1,0 +1,383 @@
+*{
+    border: 0;
+    margin: 0;
+}
+.back{
+    position: fixed;
+
+}
+
+.cont{
+    width: 1277px;
+    height: 700px;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.479);
+    
+   
+}
+.contb{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.795);
+    height: 90px;
+    position: relative;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    border: 1px solid rgb(108, 3, 66);
+    box-shadow: 9px 9px 25px rgba(152, 6, 6, 0.858);
+}
+.contb .logo{
+    width: 300px;
+    height: 70px;
+    background-color: white;
+    border-radius: 70px;
+    margin-left: -50px;
+    margin-top: 10px;
+    border: 2px solid rgb(108, 3, 66);
+    box-shadow: 6px 6px 18px green;
+}
+.logo p{
+ font-family:  "Agu Display", serif;
+ color: #000;
+ margin-left: 70px;
+ font-size: 40px;
+ font-weight: 60;
+}
+
+.container {
+    margin-top: -30px;
+    width: 1215px;
+    padding: 20px;
+    background-color: rgba(215, 229, 211, 0.123);
+    border-radius: 8px;
+    opacity: 0;  /* Initially invisible */
+    animation: slideIn 3s forwards;  /* Animation effect */
+    height: 500px;
+    position: absolute;
+    border: 1px solid rgb(108, 3, 66);
+    box-shadow: 9px 9px 25px rgba(152, 6, 6, 0.858);
+}
+
+/* Define the slide-in animation */
+@keyframes slideIn {
+    0% {
+        transform: translateX(-100%);  /* Start off-screen to the left */
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);  /* End at the original position */
+        opacity: 1;
+    }
+}
+.container .imga img{
+
+    width: 300px;
+    height: 400px;
+    background-color: black;
+    position: relative;
+    margin-top: 30px;
+    border-radius: 40px;
+    border: 2px solid rgb(108, 3, 66);
+    box-shadow: 6px 6px 20px rgba(92, 4, 65, 0.541);
+    margin-left: 50px;
+}
+.container .imgb img{
+
+    width: 300px;
+    height: 400px;
+    background-color: black;
+    position: fixed;
+    margin-left: 450px;
+    margin-top: -400px;
+    border-radius: 40px;
+    border: 2px solid rgb(108, 3, 66);
+    box-shadow: 6px 6px 20px rgba(92, 4, 65, 0.541);
+    transition: transform 0.5s ease-in-out;
+}
+.container .imgc img{
+
+    width: 300px;
+    height: 400px;
+    background-color: black;
+    position: fixed;
+    margin-left: 870px;
+    margin-top: -400px;
+    border-radius: 40px;
+    border: 2px solid rgb(108, 3, 66);
+    box-shadow: 6px 6px 20px rgba(92, 4, 65, 0.541);
+    transition: transform 0.3s ease-in-out;
+}
+.container .imgc img:hover{
+    transform: scale(1.2);
+}
+.a button{
+    bottom: 30px;
+    margin-left: -170px;
+    width: 100px;
+    height: 40px;border-radius: 20px;
+    border: 1px solid rgb(108, 3, 66);
+    box-shadow: 6px 6px 20px rgb(123, 1, 1);
+    transition: transform 0.3s ease-in-out;
+    background-color: rgba(231, 3, 3, 0.384);
+    animation: resizeImage 6s infinite; 
+    font-family: "Caveat", serif;
+    font-size: 25px;
+    font-weight: 700;
+}
+.a{
+    margin-left: 40px;
+    transition: transform 0.3s ease;
+    border-radius: 3px;
+    border: 1px solid rgb(108, 3, 66);
+    box-shadow: 9px 9px 25px rgba(152, 6, 6, 0.858);
+   
+}
+.a :hover{
+    transform: scale(1.2);
+}
+.b :hover{
+    transform: scale(1.2);
+}
+.c :hover{
+    transform: scale(1.2);
+}
+.d :hover{
+    transform: scale(1.2);
+}
+
+
+@keyframes resizeImage  {
+    0% {
+        transform: scale(1); /* Initial size */
+    }
+    50% {
+        transform: scale(1.2); /* 20% larger */
+    }
+    100% {
+        transform: scale(1); /* Back to normal size */
+    }
+}
+
+.container .imgc img{
+    animation: resizeImage 6s infinite; /* 5 seconds duration, infinite loop */
+}
+.container .imga img{
+    animation: resizeImage 6s infinite; /* 5 seconds duration, infinite loop */
+}
+.container .imgb img{
+    animation: resizeImage 4s infinite; /* 5 seconds duration, infinite loop */
+}
+.page{
+     
+    position: absolute;
+    margin-top: 800px;
+    height: 2000px;
+    width: 100%;
+}
+.title p{
+    font-family:  sans-serif;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    
+    margin-left: 40px;
+    font-size: 30px;
+    font-weight: 20;
+}
+.titl p{
+    font-family:  sans-serif;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    margin-top: 700px;
+    margin-left: 40px;
+    font-size: 30px;
+    font-weight: 20;
+}
+
+.pagea{
+    width: 950px;
+    height: 300px;
+    display: inline-block;
+    padding: 40px;
+    margin-top: 70px;
+    position: fixed;
+}
+.b{
+    margin-top: -364px;
+    margin-left: 335px;
+   
+}
+.a iframe :hover{
+    transform: scale(12px);
+}
+
+.d{
+    margin-top: -364px;
+    margin-left: 925px; 
+}
+.c{
+    margin-top: -364px;
+    margin-left: 630px;
+}
+.b button{
+    bottom: 30px;
+    margin-left: -170px;
+    width: 100px;
+    height: 40px;border-radius: 20px;
+    border: 1px solid rgb(108, 3, 66);
+    box-shadow: 6px 6px 20px rgb(123, 1, 1);
+    transition: transform 0.3s ease-in-out;
+    background-color: rgba(231, 3, 3, 0.384);
+    animation: resizeImage 6s infinite; 
+    font-family: "Caveat", serif;
+    font-size: 25px;
+    font-weight: 700;
+}
+.c button{
+    bottom: 30px;
+    margin-left: -170px;
+    width: 100px;
+    height: 40px;border-radius: 20px;
+    border: 1px solid rgb(108, 3, 66);
+    box-shadow: 6px 6px 20px rgb(123, 1, 1);
+    transition: transform 0.3s ease-in-out;
+    background-color: rgba(231, 3, 3, 0.384);
+    animation: resizeImage 6s infinite; 
+    font-family: "Caveat", serif;
+    font-size: 25px;
+    font-weight: 700;
+}
+.b button{
+    animation: resizeImage 6s infinite; 
+}
+.d button{
+    bottom: 30px;
+    margin-left: -170px;
+    width: 100px;
+    height: 40px;border-radius: 20px;
+    border: 1px solid rgb(108, 3, 66);
+    box-shadow: 6px 6px 20px rgb(123, 1, 1);
+    transition: transform 0.3s ease-in-out;
+    background-color: rgba(231, 3, 3, 0.384);
+    animation: resizeImage 6s infinite; 
+    font-family: "Caveat", serif;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.space {
+    width: 20px;
+    height: 100px;
+}
+.contb .ig img{
+    margin-left: 1130px;
+    margin-top: -200px;
+  
+}
+.more a button{
+    margin-left: 1100px;
+    margin-top: 40px;
+   color: #ffffff;
+    width: 100px;
+    height: 40px;border-radius: 20px;
+    border: 2px solid rgb(108, 3, 66);
+    box-shadow: 6px 6px 20px rgba(92, 4, 65, 0.541);
+    transition: transform 0.3s ease-in-out;
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    animation: resizeImag 6s infinite; 
+}
+@keyframes resizeImag  {
+    0% {
+        transform: scale(1); /* Initial size */
+    }
+    50% {
+        transform: scale(1.4); /* 20% larger */
+    }
+    100% {
+        transform: scale(1); /* Back to normal size */
+    }
+}
+
+@keyframes resizeIma  {
+    0% {
+        transform: scale(1); /* Initial size */
+    }
+    50% {
+        transform: scale(1.1); /* 20% larger */
+    }
+    100% {
+        transform: scale(1); /* Back to normal size */
+    }
+}
+.bestt img{
+    height: 150px;
+    margin-top: 200px;
+    width: 150px;
+    border-radius: 100%;
+    margin-left: 1020px;
+    position: absolute;
+    box-shadow: 20px 20px 20px rgba(122, 1, 1, 0.541);
+    animation: resizeIma 6s infinite; 
+    
+}
+.best img{
+    height: 150px;
+    margin-top: 200px;
+    width: 150px;
+    border-radius: 100%;
+    margin-left: 750px;
+    position: absolute;
+    box-shadow: 20px 20px 20px rgba(122, 1, 1, 0.541);
+    animation: resizeIma 6s infinite; 
+}
+.bes img{
+    height: 150px;
+    margin-top: 200px;
+    width: 150px;
+    border-radius: 100%;
+    margin-left: 500px;
+    position: absolute;
+    box-shadow: 20px 20px 20px rgba(122, 1, 1, 0.541);
+    animation: resizeIma 6s infinite; 
+}
+.be img{
+    height: 150px;
+    margin-top: 200px;
+    width: 150px;
+    border-radius: 100%;
+    margin-left: 250px;
+    position: absolute;
+    box-shadow: 20px 20px 20px rgba(122, 1, 1, 0.541);
+    animation: resizeIma 6s infinite; 
+}
+.bss img{
+    height: 150px;
+    margin-top: 150px;
+    width: 200px;
+    border-radius: 100%;
+    margin-left: 200px;
+    position: absolute;
+    box-shadow: 20px 20px 20px rgba(122, 1, 1, 0.541);
+    animation: resizeIma 6s infinite; 
+}
+.baa img{
+    height: 150px;
+    margin-top: 200px;
+    width: 150px;
+    border-radius: 100%;
+    margin-left: -10px;
+    position: absolute;
+    box-shadow: 20px 20px 20px rgba(122, 1, 1, 0.541);
+    animation: resizeIma 6s infinite; 
+}
+.alot{
+    height: 300px;
+}
+.day p{
+    position: absolute;
+    font-size: 40px;
+    color: rgb(228, 225, 225);
+    font-family: "Rubik Vinyl", serif;
+    font-weight: 900;
+    margin-top: 100px;
+    margin-left: 300px;
+}

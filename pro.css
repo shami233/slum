@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.back img{
+    position: fixed;
+    width:  1275px;
+    height: 650px;
+}
+.all{
+    position: absolute;
+}
+.mind{
+    width: 1272px;
+    height: 100px;
+    background-color: rgb(31, 24, 19);
+
+}
+
+.meu{
+    position: absolute;
+    margin-top: 25px;
+    margin-left: 370px;
+    display: inline-flex;
+    
+    
+
+    
+}
+.meu button{
+   
+    background-color:green;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    width: 150px;
+    font-size: 15px;
+    
+}
+.meu a :hover{
+    background-color: gray;
+}
+.meu a{
+    margin-left: 20px;
+}
+
+.conte{
+    width: 1260px;
+    margin-top: 300px;
+    display: inline-flex;
+    
+    
+}
+
+.cont{
+    width: 1260px;
+    margin-top: 50px;
+    display: inline-flex;
+    
+    
+}
+.me{
+    width: 300px;
+    height: 200px;
+    background-color: rgba(31, 30, 30, 0.429);
+    border: 1px solid green;
+    border-radius: 30px;
+    margin-left: 15px;
+    
+    
+}
+
+.me img{
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-left: 8px;
+}
+.me h5{
+    
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: 300;
+    color: green;
+}
+.me .hh{
+    margin-top: -150px;
+    margin-left: 159px;
+}
+
+.me p{
+    color: aliceblue;
+    font-family: sans-serif;
+    
+}
+
+

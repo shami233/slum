@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.back{
+    position: fixed;
+
+}
+
+
+
+
+.a button{
+    bottom: 30px;
+    margin-left: -170px;
+    width: 100px;
+    height: 40px;border-radius: 20px;
+    border: 2px solid rgb(108, 3, 66);
+    box-shadow: 6px 6px 20px rgba(92, 4, 65, 0.541);
+    transition: transform 0.3s ease-in-out;
+    background-color: rgb(231, 3, 3);
+    animation: resizeImage 6s infinite; 
+}
+.a{
+    margin-left: 40px;
+}
+@keyframes resizeImage  {
+    0% {
+        transform: scale(1); /* Initial size */
+    }
+    50% {
+        transform: scale(1.2); /* 20% larger */
+    }
+    100% {
+        transform: scale(1); /* Back to normal size */
+    }
+}
+
+.container .imgc img{
+    animation: resizeImage 6s infinite; /* 5 seconds duration, infinite loop */
+}
+.container .imga img{
+    animation: resizeImage 6s infinite; /* 5 seconds duration, infinite loop */
+}
+.container .imgb img{
+    animation: resizeImage 4s infinite; /* 5 seconds duration, infinite loop */
+}
+.page{
+     
+    position: absolute;
+    margin-top: 100px;
+    height: 2000px;
+    width: 100%;
+}
+.title p{
+    font-family:  sans-serif;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    
+    margin-left: 40px;
+    font-size: 30px;
+    font-weight: 20;
+}
+.titl p{
+    font-family:  sans-serif;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    margin-top: 700px;
+    margin-left: 40px;
+    font-size: 30px;
+    font-weight: 20;
+}
+
+.pagea{
+    width: 950px;
+    height: 300px;
+    display: inline-block;
+    padding: 40px;
+    margin-top: 70px;
+    position: fixed;
+}
+.b{
+    margin-top: -364px;
+    margin-left: 335px;
+   
+}
+.a iframe :hover{
+    transform: scale(12px);
+}
+
+.d{
+    margin-top: -364px;
+    margin-left: 925px; 
+}
+.c{
+    margin-top: -364px;
+    margin-left: 630px;
+}
+.b button{
+    bottom: 30px;
+    margin-left: -170px;
+    width: 100px;
+    height: 40px;border-radius: 20px;
+    border: 2px solid rgb(108, 3, 66);
+    box-shadow: 6px 6px 20px rgba(92, 4, 65, 0.541);
+    transition: transform 0.3s ease-in-out;
+    background-color: rgb(231, 3, 3);
+}
+.c button{
+    bottom: 30px;
+    margin-left: -170px;
+    width: 100px;
+    height: 40px;border-radius: 20px;
+    border: 2px solid rgb(108, 3, 66);
+    box-shadow: 6px 6px 20px rgba(92, 4, 65, 0.541);
+    transition: transform 0.3s ease-in-out;
+    background-color: rgb(231, 3, 3);
+    animation: resizeImage 6s infinite; 
+}
+.b button{
+    animation: resizeImage 6s infinite; 
+}
+.d button{
+    bottom: 30px;
+    margin-left: -170px;
+    width: 100px;
+    height: 40px;border-radius: 20px;
+    border: 2px solid rgb(108, 3, 66);
+    box-shadow: 6px 6px 20px rgba(92, 4, 65, 0.541);
+    transition: transform 0.3s ease-in-out;
+    background-color: rgb(231, 3, 3);
+    animation: resizeImage 6s infinite; 
+}
+
+.space {
+    width: 20px;
+    height: 100px;
+}
+.contb .ig img{
+    margin-left: 1130px;
+    margin-top: -200px;
+  
+}
+.more a button{
+    margin-left: 1100px;
+    margin-top: 40px;
+   color: #ffffff;
+    width: 100px;
+    height: 40px;border-radius: 20px;
+    border: 2px solid rgb(108, 3, 66);
+    box-shadow: 6px 6px 20px rgba(92, 4, 65, 0.541);
+    transition: transform 0.3s ease-in-out;
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    animation: resizeImag 6s infinite; 
+}
+.cont{
+    width: 1277px;
+    height: 700px;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.701);
+   
+}
